@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
   "dev": "tsx server/server.ts",
-  "start": "node server/server.js",
-  "build": "vite build && tsc"
+  "start": "tsx server/server.ts",
+  "build": "vite build"
 },
   "dependencies": {
     "@google/genai": "^1.29.0",
