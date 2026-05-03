@@ -7,7 +7,7 @@
   "dev": "tsx server/server.ts",
   "start": "node server/server.js",
   "build": "vite build && tsc"
-}
+},
   "dependencies": {
     "@google/genai": "^1.29.0",
     "@tailwindcss/vite": "^4.1.14",
